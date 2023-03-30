@@ -57,14 +57,16 @@ public class CharacterSelectionFrame extends JFrame {
         bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.Y_AXIS));
         JPanel buttonsPanel2 = new JPanel();
         buttonsPanel2.setLayout(new FlowLayout(FlowLayout.CENTER));
-        JButton Help =new JButton("Help");
-        buttonsPanel2.add(Help);
+        JButton BHelp =new JButton("Help");
+        buttonsPanel2.add(BHelp);
         JButton BExit =new JButton("Exit");
         buttonsPanel2.add(BExit);
         bottomPanel.add(Box.createVerticalGlue());
         bottomPanel.add(buttonsPanel2);
         bottomPanel.add(Box.createVerticalGlue());
-
+        JLabel LBJoke = new JLabel("Try pressing another one");
+        bottomPanel.add(LBJoke);
+        LBJoke.setVisible(false);
 
         topPanel.setPreferredSize(new Dimension(400, 100));
         middlePanel.setPreferredSize(new Dimension(400, 100));
@@ -79,6 +81,9 @@ public class CharacterSelectionFrame extends JFrame {
         BSlot1.addActionListener(e -> dispose());
         BSlot2.addActionListener(e -> dispose());
         BSlot3.addActionListener(e -> dispose());
+
+        BHelp.addActionListener(e -> LBJoke.setVisible(true));
+
         BExit.addActionListener(e -> System.exit(0));
 
         setResizable(false);
