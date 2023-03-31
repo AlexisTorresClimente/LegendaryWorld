@@ -15,7 +15,7 @@ public class CurencyLogHandler {
     public CurencyLogHandler() {
         try {
 
-            File inputFile = new File("C:\\Users\\Alexis\\IdeaProjects\\Legendary World\\CurencyLog.xml");
+            File inputFile = new File("/home/estudiante/Unidad8/src/main/java/CurencyLog.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);

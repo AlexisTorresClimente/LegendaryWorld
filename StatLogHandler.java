@@ -14,7 +14,7 @@ public class StatLogHandler {
 
 
         try {
-            File inputFile = new File("C:\\Users\\Alexis\\IdeaProjects\\Legendary World\\StatLog.xml");
+            File inputFile = new File("/home/estudiante/Unidad8/src/main/java/StatLog.xml");
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();

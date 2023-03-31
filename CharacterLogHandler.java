@@ -15,7 +15,7 @@ public class CharacterLogHandler {
     public CharacterLogHandler() {
         try {
 
-            File inputFile = new File("C:\\Users\\Alexis\\IdeaProjects\\Legendary World\\CharacterLog.xml");
+            File inputFile = new File("/home/estudiante/Unidad8/src/main/java/CharacterLog.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
