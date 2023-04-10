@@ -1,3 +1,7 @@
+import LogHandlers.CharacterLogHandler;
+import LogHandlers.CurencyLogHandler;
+import LogHandlers.StatLogHandler;
+
 import java.util.Arrays;
 public class Main {
 
@@ -16,21 +20,21 @@ public class Main {
     public static String[] StatsTitulos = new String[8];
     public static String[] CurencyTitulos = new String[4];
 
+
+
     public static void main(String[] args) {
 
+
+
         new CharacterLogHandler();
-
         new StatLogHandler();
-
         new CurencyLogHandler();
-
         RecogeLog();
-
         new CharacterSelectionFrame();
 
-        new CharacterFrame();
+        System.out.println(Main.Slot1[1]);
+        System.out.println(Class.Knight);
 
-        /*Unicamente comprovador de que se han guardo los datos correctamente, borrar al acabar el progama*/
         System.out.println("Slot1: " + Arrays.toString(Slot1));
         System.out.println("Slot2: " + Arrays.toString(Slot2));
         System.out.println("Slot3: " + Arrays.toString(Slot3));

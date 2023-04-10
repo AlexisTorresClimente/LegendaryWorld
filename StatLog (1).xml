@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><StatLog>
+    <Stat>
+        <NUM>1</NUM>
+        <STR>0</STR>
+        <DEX>0</DEX>
+        <INT>0</INT>
+        <WIS>0</WIS>
+        <END>0</END>
+        <MYS>0</MYS>
+        <CHARM>0</CHARM>
+        <LUCK>0</LUCK>
+    </Stat>
+    
+    <Stat>
+        <NUM>3</NUM>
+        <STR>3</STR>
+        <DEX>3</DEX>
+        <INT>3</INT>
+        <WIS>3</WIS>
+        <END>3</END>
+        <MYS>3</MYS>
+        <CHARM>3</CHARM>
+        <LUCK>3</LUCK>
+    </Stat>
+</StatLog>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CharacterLog>
+      
+  <Character>
+            
+    <Slot>1</Slot>
+            
+    <Name>Character 1</Name>
+            
+    <Class>Knight</Class>
+            
+    <Rank>F</Rank>
+            
+    <StatLogNum>1</StatLogNum>
+            
+    <CurrencyLogNum>1</CurrencyLogNum>
+        
+  </Character>
+      
+  <Character>
+            
+    <Slot/>
+            
+    <Name/>
+            
+    <Class/>
+            
+    <Rank/>
+            
+    <StatLogNum/>
+            
+    <CurrencyLogNum/>
+        
+  </Character>
+      
+  <Character>
+            
+    <Slot>3</Slot>
+            
+    <Name/>
+            
+    <Class/>
+            
+    <Rank/>
+            
+    <StatLogNum/>
+            
+    <CurrencyLogNum/>
+        
+  </Character>
+  
+</CharacterLog>

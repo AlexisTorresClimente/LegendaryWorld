@@ -1,0 +1,23 @@
+<CurencyLog>
+    <Curency>
+        <Number>1</Number>
+        <XP>41</XP>
+        <Gold>1231</Gold>
+        <Ona>312</Ona>
+        <AchvimentPoints>30</AchvimentPoints>
+    </Curency>
+    <Curency>
+        <Number>2</Number>
+        <XP>3123</XP>
+        <Gold>4124</Gold>
+        <Ona>1214</Ona>
+        <AchvimentPoints>412</AchvimentPoints>
+    </Curency>
+    <Curency>
+        <Number>3</Number>
+        <XP>412412</XP>
+        <Gold>31</Gold>
+        <Ona>1312</Ona>
+        <AchvimentPoints>20</AchvimentPoints>
+    </Curency>
+</CurencyLog>
